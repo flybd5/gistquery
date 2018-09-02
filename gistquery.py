@@ -80,7 +80,6 @@ else:
         try:
             configFile.seek(0,0)
             configFile.write(gist[0]['created_at'])
-            configFile.write('\n')
         except Exception as e:
             raise
     else:
