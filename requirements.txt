@@ -1,5 +1,5 @@
 argparse
 simplejson
 datetime
-urllib
+urllib3
 requests
