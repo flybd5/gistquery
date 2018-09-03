@@ -86,4 +86,4 @@ else:
         print('Github user "' + args.gitUser +
             '" has not created a new gist since the last query.')
     configFile.close()
-    exit(0)
+exit(0)
